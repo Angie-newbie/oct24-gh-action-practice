@@ -17,6 +17,9 @@ jobs:
     # Steps are the specific thing to do
     steps: 
       - run: echo "Hello, World"
+
+      - uses: action/checkout@v4
+
       - run: |
           ls .
           echo "All files of pwd listed above"
@@ -27,7 +30,8 @@ jobs:
 
     # Steps are the specific thing to do
     steps: 
-      - run: echo "Hello, World"
+      - name: Hello world command
+        run: echo "Hello, World"
       - run: |
           ls .
           echo "All files of pwd listed above"
