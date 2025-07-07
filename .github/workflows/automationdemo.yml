@@ -21,7 +21,7 @@ jobs:
       - uses: action/checkout@v4
 
       - run: |
-          ls .
+          ls -a
           echo "All files of pwd listed above"
 
   # Run a job on Windows
