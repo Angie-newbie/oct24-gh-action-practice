@@ -10,8 +10,8 @@ on:
       inputs: 
         pokemon:
           description: "Pokemon to show"
-          required:
-            default: "pikachu"
+          required: false
+          default: "pikachu"
 
 # Dfine the things to do within the workflow
 jobs:
