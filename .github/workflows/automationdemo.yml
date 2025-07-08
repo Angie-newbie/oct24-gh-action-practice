@@ -1,5 +1,9 @@
 name: Automation Demo
 
+
+permissions:
+  contents: write  # llow updating files like README.md
+
 # When we push to our default branch
 # runn this workflow
 on:
