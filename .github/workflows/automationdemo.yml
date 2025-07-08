@@ -11,7 +11,7 @@ on:
         pokemon:
           description: "Pokemon to show"
           required:
-            defualt: "pikachu"
+            default: "pikachu"
 
 # Dfine the things to do within the workflow
 jobs:
