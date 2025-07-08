@@ -18,7 +18,7 @@ jobs:
 
   # Run a job on Linux
   ourfirstjob:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     # Steps are the specific thing to do
     steps: 
@@ -32,7 +32,7 @@ jobs:
 
   # Run a job on Windows
   oursecondjob:
-    runs-on: windows-lastest
+    runs-on: windows-latest
 
     # Steps are the specific thing to do
     steps: 
